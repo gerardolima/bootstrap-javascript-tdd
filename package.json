@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-javascript-tdd",
+  "version": "1.0.0",
+  "description": "Minimal bootstrap for TDD in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --watch-extensions spec.js 'src/**/*'",
+    "tdd": "mocha --watch --watch-extensions spec.js --watch 'src/**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerardolima/bootstrap-javascript-tdd.git"
+  },
+  "keywords": [
+    "tdd",
+    "javascript"
+  ],
+  "author": "Gerardo Lima <gerardo.lima@gmail.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/gerardolima/bootstrap-javascript-tdd/issues"
+  },
+  "homepage": "https://github.com/gerardolima/bootstrap-javascript-tdd#readme",
+  "dependencies": {
+    "chai": "4.2.0",
+    "mocha": "6.1.4"
+  }
+}
