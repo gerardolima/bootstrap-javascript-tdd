@@ -22,8 +22,7 @@
   },
   "homepage": "https://github.com/gerardolima/bootstrap-javascript-tdd#readme",
   "dependencies": {
-    "chai": "4.2.0",
-    "lodash": "^4.17.14",
-    "mocha": "6.1.4"
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   }
 }
